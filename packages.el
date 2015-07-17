@@ -9,14 +9,4 @@
 ;;
 ;;; License: GPLv3
 
-(setq igas-packages
-    '(
-      fish-mode
-      ))
-
-;; List of packages to exclude.
-;; (setq igas-excluded-packages '())
-
-(defun igas/init-fish-mode ()
-  (use-package fish-mode)
-  )
+(setq igas-packages '())
