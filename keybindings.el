@@ -11,3 +11,8 @@
 
 ;; NeoTree
 (define-key evil-normal-state-map (kbd "C-n") 'neotree-toggle)
+
+;; Projectile Find File
+(define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
+(define-key evil-visual-state-map (kbd "C-p") 'projectile-find-file)
+(define-key evil-motion-state-map (kbd "C-p") 'projectile-find-file)
